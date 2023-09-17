@@ -1,0 +1,161 @@
+#header {
+  background-color: rgba(153, 224, 224, 0.575);
+}
+#header .boxes {
+  position: relative;
+}
+#header .boxes .logo {
+  width: 24%;
+}
+#header .boxes .logo img {
+  width: 200px;
+}
+#header .boxes .menu {
+  width: 65%;
+}
+#header .boxes .menu ul li a {
+  text-decoration: none;
+  padding: 25px 20px;
+  display: inline-block;
+  font-size: 18px;
+  color: black;
+}
+#header .boxes .menu ul li i {
+  vertical-align: -3px;
+  color: orange;
+}
+#header .boxes .menu ul .demos:hover .big-dropped {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+#header .boxes .menu ul .demos .big-dropped {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transform: translateY(20px);
+  justify-content: space-around;
+  background-color: rgba(121, 89, 151, 0.137);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+#header .boxes .menu ul .demos .big-dropped ul li a {
+  padding: 18px;
+  color: rgb(163, 8, 8);
+}
+#header .boxes .menu ul .demos .big-dropped .dropped-2 img {
+  width: 100%;
+  height: 100%;
+}
+#header .boxes .box-ico {
+  width: 7%;
+}
+#header .boxes .box-ico ul li .info a i {
+  color: rgb(19, 1, 1);
+}
+#header .boxes .box-ico ul a {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+#header .boxes .box-ico ul a i {
+  color: orange;
+  font-size: 18px;
+}
+
+#header {
+  background-color: rgba(153, 224, 224, 0.575);
+}
+#header .boxes {
+  position: relative;
+}
+#header .boxes .logo {
+  width: 24%;
+}
+#header .boxes .logo img {
+  width: 200px;
+}
+#header .boxes .menu {
+  width: 65%;
+}
+#header .boxes .menu ul li a {
+  text-decoration: none;
+  padding: 25px 20px;
+  display: inline-block;
+  font-size: 18px;
+  color: black;
+}
+#header .boxes .menu ul li i {
+  vertical-align: -3px;
+  color: orange;
+}
+#header .boxes .menu ul .demos:hover .big-dropped {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+#header .boxes .menu ul .demos .big-dropped {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transform: translateY(20px);
+  justify-content: space-around;
+  background-color: rgba(121, 89, 151, 0.137);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+#header .boxes .menu ul .demos .big-dropped ul li a {
+  padding: 18px;
+  color: rgb(163, 8, 8);
+}
+#header .boxes .menu ul .demos .big-dropped .dropped-2 img {
+  width: 100%;
+  height: 100%;
+}
+#header .boxes .box-ico {
+  width: 7%;
+}
+#header .boxes .box-ico ul li .info a i {
+  color: rgb(19, 1, 1);
+}
+#header .boxes .box-ico ul a {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+#header .boxes .box-ico ul a i {
+  color: orange;
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
